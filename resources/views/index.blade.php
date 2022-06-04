@@ -1,434 +1,402 @@
-<!doctype html>
-<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="en-gb" class="no-js">
-<!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!--[if lt IE 9]> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <![endif]-->
-<title>WebThemez - Single page website</title>
-<meta name="description" content="">
-<meta name="author" content="WebThemez">
-<!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-<!--[if lte IE 8]>
-		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
-	<![endif]-->
-<link rel="stylesheet" href="{{asset('assetswebsite/css/bootstrap.min.css')}}" />
-<link rel="stylesheet" type="text/css" href="{{asset('assetswebsite/css/isotope.css')}}" media="screen" />
-<link rel="stylesheet" href="{{asset('assetswebsite/js/fancybox/jquery.fancybox.css')}}" type="text/css" media="screen" />
-<link href="{{asset('assetswebsite/css/animate.css')}}" rel="stylesheet" media="screen">
-<!-- Owl Carousel Assets -->
-<link href="{{asset('assetswebsite/js/owl-carousel/owl.carousel.css')}}" rel="stylesheet">
-<link rel="stylesheet" href="{{asset('assetswebsite/css/styles.css')}}" />
-<!-- Font Awesome -->
-<link href="{{asset('assetswebsite/font/css/font-awesome.min.css')}}" rel="stylesheet">
-</head>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>John Doe - Personal CV Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
 
-<body>
-<header class="header">
-  <div class="container">
-    <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a href="#" class="navbar-brand scroll-top logo"><b>Think Hire</b></a> </div>
-      <!--/.navbar-header-->
-      <div id="main-nav" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav" id="mainNav">
-          <li class="active"><a href="#home" class="scroll-link">Home</a></li>
-          <li><a href="#features" class="scroll-link">Vision</a></li>
-          <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
-          <li><a href="#services" class="scroll-link">Services</a></li>
-          <li><a href="#team" class="scroll-link">Team</a></li>
-          <li><a href="#contactUs" class="scroll-link">Contact Us</a></li>
-        </ul>
-      </div>
-      <!--/.navbar-collapse--> 
-    </nav>
-    <!--/.navbar--> 
-  </div>
-  <!--/.container--> 
-</header>
-<!--/.header-->
-<div id="#top"></div>
-<section id="home">
-  <div class="banner-container"> <img src="{{asset('assetswebsite/images/banner-bg.jpg')}}" alt="banner" />
-    <div class="container banner-content">
-      <div class="hero-text animated fadeInDownBig">
-        <h1 class="responsive-headline" style="font-size: 40px;">Hire Thinking - Company</h1>
-        <p>Think hire Middle East recruitment<br/>
-          </p>
-      </div>
-      
-      <!-- <a class="hero-button learn-more smoothscroll text-center" href="#features">Learn More</a>-->
-      <div class="hero-img"> <img src="{{asset('assetswebsite/images/homepage-1204-background-lapto.png')}}" alt="" class="text-center animated fadeInUpBig"/></div>
-    </div>
-  </div>
-</section>
-<section id="features">
-  <div class="container">
-    <div class="row feature design">
-      <div class="six columns right">
-        <h3>Our Vision : </h3>
-        <p>We are a newly established and certified company that seeks to provide quality services for organizations in the UK, by bringing them closer to job seekers.
-          Our team of recruitment officers are here to make the gap between employers and applicants much closer
-          and accessible. Our main goal is enhancing and bringing added value to the clients we represent, while making sure that
-          job applicants are satisfied with the job opportunities we can provide for them.</p>
-      </div>
-      <div class="six columns feature-media left"> <img src="{{asset('assetswebsite/images/feature-img-1.png')}}" alt=""> </div>
-    </div>
-    <div class="row feature responsive">
-      <div class="six columns left">
-        <h3>Our mission .</h3>
-        <p>
-          Our mission statement is delivering the right applicant to the right client. This starts with having a short-list of approved candidates, then carrying out necessary interviews and background checks, and up to drafting out contracts. </p>
-      </div>
-      <div class="six columns feature-media right"> <img src="{{asset('assetswebsite/images/feature-img-2.png')}}" alt=""> </div>
-    </div>
-    <div class="row feature cross-browser">
-      <div class="six columns right">
-        <h3>What is a recruitment process?</h3>
-        <p>A good recruitment process allows you to find qualified candidates quickly and efficiently. The process requires intentional planning and constant evaluation. The recruitment process should be streamlined so each staff member has the tools and resources they need for their step in the process. </p>
-      </div>
-      <div class="six columns feature-media left"> <img src="{{asset('assetswebsite/images/feature-img-3.png')}}" alt=""> </div>
-    </div>
-  </div>
-</section>
-<section id="aboutUs" class="page-section darkBg pDark">
-  <div class="container">
-    <div class="heading text-center"> 
-      <!-- Heading -->
-      <h2>we are transparent</h2>
-      <p>Being transparent when recruiting lets potential candidates know you're honest, professional and that you care about their experience, regardless of whether or not you hire them. If you make transparency a core part of your recruitment strategy you'll have more success in hiring and retaining top candidates.</p>
-    </div>
-    <div class="row">
-      <div class="col-md-4 mcbook" data-animated="bounceInLeft"> <img src="{{asset('assetswebsite/images/macbook.png')}}" class="fitImage" alt="img" /> </div>
-      <div class="col-md-8">
-        <h3>Our Company</h3>
-        <p>A recruitment company that hires people who are skilled and can accomplish the tasks required of them efficiently and effectively.
-			This is a large scale company with big goals, aiming to get the best people to the best jobs. </p>
-      </div>
-    </div>
-  </div>
-  <!--/.container--> 
-</section>
-<section id="services" class="page-section">
-  <div class="container">
-    <div class="heading text-center"> 
-      <!-- Heading -->
-      <h2>Services</h2>
-      <p>here are the steps of the services we provide.</p>
-    </div>
-    <div class="row"> 
-      
-      <!-- item -->
-      <div class="col-md-3 text-center"> <i class="fa fa-arrows fa-2x circle"></i>
-        <h3>Step <span class="id-color">1</span></h3>
-        <p>executive search (head hunting potential high calibre candidates) participation in the selection process
-conducting specialist recruitment.</p>
-      </div>
-      <!-- end: --> 
-      
-      <!-- item -->
-      <div class="col-md-3 text-center"> <i class="fa fa-css3 fa-2x circle"></i>
-        <h3> Step<span class="id-color">2</span></h3>
-        <p>advertisement design and placement,assistance with the preparation of selection documentation,handle initial enquiries and acknowledge applications.</p>
-      </div>
-      <!-- end: --> 
-      
-      <!-- item -->
-      <div class="col-md-3 text-center"> <i class="fa fa-lightbulb-o fa-2x circle"></i>
-        <h3>Step <span class="id-color">3</span></h3>
-        <p>short list applications and conduct first round interviews, conduct verbal reference checks and skills tests, present short listed applicants for further consideration.</p>
-      </div>
-      <!-- end: --> 
-      
-      <!-- item -->
-      <div class="col-md-3 text-center"> <i class="fa fa-globe fa-2x circle"></i>
-        <h3>Step <span class="id-color">4</span></h3>
-        <p>organise interviews with the short listed applicants, assist with negotiations and advise unsuccessful applicants of the outcome.</p>
-      </div>
-      <!-- end:--> 
-    </div>
-  </div>
-  <!--/.container--> 
-</section>
-<section id="clients">
-  <div id="demo" class="clients">
-    <div class="container">
-      <div class="heading text-center">
-        <h2>Oure Clients</h2>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="customNavigation"> <a class="prev"><i class="fa fa-chevron-circle-left"></i></a> <a class="next"><i class="fa fa-chevron-circle-right"></i></a> </div>
-          <div id="owl-demo" class="owl-carousel">
-            <div class="item"> <span class="helper"> <img src="{{asset('assetswebsite/images/clients/client-1.png')}}" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="{{asset('assetswebsite/images/clients/client-2.png')}}" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="{{asset('assetswebsite/images/clients/client-3.png')}}" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="{{asset('assetswebsite/images/clients/client-4.png')}}" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="{{asset('assetswebsite/images/clients/client-5.png')}}" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="{{asset('assetswebsite/images/clients/client-6.png')}}" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="{{asset('assetswebsite/images/clients/client-7.png')}}" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="{{asset('assetswebsite/images/clients/client-8.png')}}" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="{{asset('assetswebsite/images/clients/client-9.png')}}" alt="client" /></span> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="portfolio" class="page-section section appear clearfix">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="row">
-          <div class="portfolio-items isotopeWrapper clearfix" id="3">
-            <article class="col-sm-4 isotopeItem webdesign">
-              <div class="portfolio-item"> <img src="{{asset('assetswebsite/images/portfolio/img1.jpg')}}" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="{{asset('assetswebsite/images/portfolio/img1.jpg')}}" class="fancybox">
-                    <h5>DataBase</h5>
-                    <i class="fa fa-link fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem photography">
-              <div class="portfolio-item"> <img src="{{asset('assetswebsite/images/portfolio/img2.jpg')}}" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="{{asset('assetswebsite/images/portfolio/img2.jpg')}}" class="fancybox">
-                    <h5>Data Analysis</h5>
-                    <i class="fa fa-link fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem photography">
-              <div class="portfolio-item"> <img src="{{asset('assetswebsite/images/portfolio/img3.jpg')}}" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="{{asset('assetswebsite/images/portfolio/img3.jpg')}}" class="fancybox">
-                    <h5>Design</h5>
-                    <i class="fa fa-link fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem print">
-              <div class="portfolio-item"> <img src="{{asset('assetswebsite/images/portfolio/img4.jpg')}}" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="{{asset('assetswebsite/images/portfolio/img4.jpg')}}" class="fancybox">
-                    <h5>djsngo Framework</h5>
-                    <i class="fa fa-link fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem photography">
-              <div class="portfolio-item"> <img src="{{asset('assetswebsite/images/portfolio/img5.jpg')}}" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="{{asset('assetswebsite/images/portfolio/img5.jpg')}}" class="fancybox">
-                    <h5>Machine Learning</h5>
-                    <i class="fa fa-link fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem webdesign">
-              <div class="portfolio-item"> <img src="{{asset('assetswebsite/images/portfolio/img6.jpg')}}" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="{{asset('assetswebsite/images/portfolio/img6.jpg')}}" class="fancybox">
-                    <h5>management</h5>
-                    <i class="fa fa-link fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem print">
-              <div class="portfolio-item"> <img src="{{asset('assetswebsite/images/portfolio/img7.jpg')}}" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="{{asset('assetswebsite/images/portfolio/img7.jpg')}}" class="fancybox">
-                    <h5>Web Design</h5>
-                    <i class="fa fa-link fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem photography">
-              <div class="portfolio-item"> <img src="{{asset('assetswebsite/images/portfolio/img8.jpg')}}" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="{{asset('assetswebsite/images/portfolio/img8.jpg')}}" class="fancybox">
-                    <h5>Hire</h5>
-                    <i class="fa fa-link fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem print">
-              <div class="portfolio-item"> <img src="{{asset('assetswebsite/images/portfolio/img9.jpg')}}" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="{{asset('assetswebsite/images/portfolio/img9.jpg')}}" class="fancybox">
-                    <h5>Business</h5>
-                    <i class="fa fa-link fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="plans" class="page-section">
-  <div class="container">
-    <div class="heading text-center"> 
-     <section id="team" class="page-section">
-  <div class="container">
-    <div class="heading text-center"> 
-      <!-- Heading -->
-      <h2>Our Team</h2>
-    </div>
-    <!-- Team Member's Details -->
-    <div class="team-content">
-      <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-6"> 
-          <!-- Team Member -->
-          <div class="team-member pDark"> 
-            <!-- Image Hover Block -->
-            <div class="member-img"> 
-              <!-- Image  --> 
-              <img class="img-responsive" src="{{asset('assetswebsite/images/photo-1.jpg')}}" alt=""> </div>
-            <!-- Member Details -->
-            <h4>John Doe</h4>
-            <!-- Designation --> 
-            <span class="pos">CEO</span>
-            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6"> 
-          <!-- Team Member -->
-          <div class="team-member pDark"> 
-            <!-- Image Hover Block -->
-            <div class="member-img"> 
-              <!-- Image  --> 
-              <img class="img-responsive" src="{{asset('assetswebsite/images/photo-2.jpg')}}" alt=""> </div>
-            <!-- Member Details -->
-            <h4>Larry Doe</h4>
-            <!-- Designation --> 
-            <span class="pos">Art Director</span>
-            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6"> 
-          <!-- Team Member -->
-          <div class="team-member pDark"> 
-            <!-- Image Hover Block -->
-            <div class="member-img"> 
-              <!-- Image  --> 
-              <img class="img-responsive" src="{{asset('assetswebsite/images/photo-3.jpg')}}" alt=""> </div>
-            <!-- Member Details -->
-            <h4>Ranith Kays</h4>
-            <!-- Designation --> 
-            <span class="pos">Manager</span>
-            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6"> 
-          <!-- Team Member -->
-          <div class="team-member pDark"> 
-            <!-- Image Hover Block -->
-            <div class="member-img"> 
-              <!-- Image  --> 
-              <img class="img-responsive" src="{{asset('assetswebsite/images/photo-4.jpg')}}" alt=""> </div>
-            <!-- Member Details -->
-            <h4>Joan Ray</h4>
-            <!-- Designation --> 
-            <span class="pos">Creative</span>
-            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/.container--> 
-</section>
-<section id="contactUs" class="contact-parlex">
-  <div class="parlex-back">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center"> 
-          <!-- Heading -->
-          <h2>Contact Us</h2>
-          <p>Feel free to communicate with us.</p>
-        </div>
-      </div>
-      <div class="row mrgn30">
-        <form method="post" action="" id="contactfrm" role="form">
-          <div class="col-sm-4">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="form-group">
-              <label for="comments">Comments</label>
-              <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
-            </div>
-            <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
-            <div class="result"></div>
-          </div>
-        </form>
-        <div class="col-sm-4">
-          <h4>Address:</h4>
-          <address>
-          Think Hire Company<br>
-          address amman jordan<br>
-          middle east recruitment <br>
-          </address>
-          <h4>Phone:</h4>
-          <address>
-          0796474681<br>
-          </address>
-        </div>
-      </div>
-    </div>
-    <!--/.container--> 
-  </div>
-</section>
-<section class="maps">
-  <iframe src="http://maps.google.com/maps?f=q&t=m&z=15&ll=-7.269152,112.733127&output=embed" width="100%" height="250" frameborder="0"></iframe>
-</section>
-<footer>
-  <div class="container">
-    <div class="social text-center"> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-flickr"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-    <div class="clear"></div>
-    <!--CLEAR FLOATS--> 
-  </div>
-</footer>
-<!--/.page-section-->
-<section class="copyright">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center"> Copyright 2022 | All Rights Reserved <a href="http://AB.com">AB.com</a> </div>
-    </div>
-    <!-- / .row --> 
-  </div>
-</section>
-<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
+        <!-- Favicon -->
+        <link href="{{ asset('assetswebsite/img/favicon.ico')}}" rel="icon">
 
-<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
-<script src="{{asset('assetswebsite/js/modernizr-latest.js')}}"></script> 
-<script src="{{asset('assetswebsite/js/jquery-1.8.2.min.js')}}" type="text/javascript"></script> 
-<script src="{{asset('assetswebsite/js/bootstrap.min.js')}}" type="text/javascript"></script> 
-<script src="{{asset('assetswebsite/js/jquery.isotope.min.js')}}" type="text/javascript"></script> 
-<script src="{{asset('assetswebsite/js/fancybox/jquery.fancybox.pack.js')}}" type="text/javascript"></script> 
-<script src="{{asset('assetswebsite/js/jquery.nav.js')}}" type="text/javascript"></script> 
-<script src="{{asset('assetswebsite/js/jquery.fittext.js')}}"></script> 
-<script src="{{asset('assetswebsite/js/waypoints.js')}}"></script> 
-<script src="{{asset('assetswebsite/js/custom.js')}}" type="text/javascript"></script> 
-<script src="{{asset('assetswebsite/js/owl-carousel/owl.carousel.js')}}"></script>
-</body>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Poppins&display=swap" rel="stylesheet"> 
+
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="{{ asset('assetswebsite/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+        <link href="{{ asset('assetswebsite/lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="{{ asset('assetswebsite/css/style.css')}}" rel="stylesheet">
+
+      </head>
+      
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+      
+        <div class="wrapper">
+            <div class="sidebar">
+                @foreach ($personal as $personal)
+                <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+                    {{-- <img class="w-100 img-fluid mb-4" src="{{ asset('assetswebsite/img/profile.jpg')}}" alt="Image"> --}}
+                    <img class="w-100 img-fluid mb-4" src="{{ asset('uploads/' . $personal->image) }}" alt="Image">
+                    <h1 class="mt-2">{{ $personal->name }}</h1>
+                  
+
+ 
+                    <div class="mb-4" style="height: 22px;">
+                        <h4 class="typed-text-output d-inline-block text-body"></h4>
+                        <h5 class="mb-1">
+                          @foreach ($experiance as $experiance)
+
+                          {{ $experiance->job_title }}</h5>
+                          
+
+                    </div>
+                    <div class="d-flex justify-content-center mt-auto mb-3">
+                        <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="mx-2" href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="d-flex align-items-end justify-content-between">
+                        <a href="" class="btn btn-block border-right">Download CV</a>
+                        <a href="#contact" class="btn btn-block btn-scroll">Contact Me</a>
+                    </div>
+                </div>
+                <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
+                    <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+                </div>
+            </div>
+          
+            <div class="content">
+                <!-- About Start -->
+                <div class="container bg-white py-5">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">About Me</h2>
+                        </div>
+                        <div class="col-12">
+                            <p>Sea et gubergren justo invidunt at amet clita. Justo sit justo tempor et invidunt voluptua, lorem voluptua ipsum gubergren et est nonumy magna et vero, sit eos dolor sea sed et dolor erat et. Accusam accusam magna aliquyam eirmod amet est kasd dolore sanctus. Lorem ea vero lorem eos eos sanctus labore. Aliquyam vero ipsum dolor duo clita consetetur stet, aliquyam ipsum sea sed et magna amet dolor.</p>
+                            <div class="row">
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Name:</h5> 
+                                    {{ $personal->name }}
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Birthday:</h5> 1 April 1990
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Degree:</h5> Master
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Experience:</h5> {{ $experiance->years_of_experiance }} Years
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Phone:</h5> {{ $personal->mobile }}
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Email:</h5> {{ $personal->email }}
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Address:</h5> {{ $personal->address }}
+                                </div>
+                                <div class="col-sm-6 py-1">
+                                    <h5 class="d-inline text-primary">Freelance:</h5> Available
+                                </div>
+        
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- About End -->
+                
+                @endforeach
+                <!-- Skills Start -->
+                <div class="container bg-white py-5">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">Skills</h2>
+                        </div>
+
+                        <div class="col-sm-6">
+                            @foreach ($skills as $skills)
+                            <div class="skill mb-4">
+                                
+                                <div class="d-flex justify-content-between">
+                                    
+                                    <p class="mb-2">{{ $skills->skills_name }}</p>
+                                    <p class="mb-2">{{ $skills->skills_grade }}%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar " role="progressbar" style="width:{{ $skills->skills_grade }}%" aria-valuenow="{{ $skills->skills_grade }}" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                
+                            </div>
+                            @endforeach
+                           
+                    </div>
+                </div>
+                <!-- Skills End -->
+
+
+                <!-- Education Start -->
+                <div class="container bg-white py-5">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">Education</h2>
+                        </div>
+                        <div class="col-12">
+                            @foreach ($qualification as $qualification)
+                            <div class="border-left border-primary pt-2 pl-4 ml-2">
+                                <div class="position-relative mb-4">
+                                    <i class="fa fa-arrow-right text-primary position-absolute" style="top: 3px; left: -24px;"></i>
+                                    <h5 class="mb-1">
+                                      {{ $qualification->qualification_name }}</h5> 
+                                    
+                                    <p class="mb-2">Iam graduated from : {{ $qualification->university }} | on <small>{{ $qualification->year }}</small></p>
+                                    <p>My Grade in this qualification is : {{ $qualification->grade }} </p>
+                                </div>
+                                
+                            </div>
+                            @endforeach
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Education End -->
+
+                <!-- Services Start -->
+                <div class="container bg-white pt-5 pb-3">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">Expericence</h2>
+                        </div>
+                        <div class="col-md-6 service-item text-center mb-3">
+                            <i class="fa fa-2x fa-laptop-code mx-auto mb-4"></i>
+                            <h5 class="mb-2"> {{ $experiance->job_title }}</h5>
+                            <p>I work at : {{ $experiance->place }} in this period of Time : ({{ $experiance->created_at }} - {{ $experiance->updated_at }})</p>
+                        </div>
+                        <div class="col-md-6 service-item text-center mb-3">
+                            <i class="fab fa-2x fa-android mx-auto mb-4"></i>
+                            <h5 class="mb-2">Apps Development</h5>
+                            <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
+                        </div>
+                        <div class="col-md-6 service-item text-center mb-3">
+                            <i class="fa fa-2x fa-search mx-auto mb-4"></i>
+                            <h5 class="mb-2">SEO</h5>
+                            <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
+                        </div>
+                        <div class="col-md-6 service-item text-center mb-3">
+                            <i class="fa fa-2x fa-edit mx-auto mb-4"></i>
+                            <h5 class="mb-2">Content Creating</h5>
+                            <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Services End -->
+
+
+                <!-- Portfolio Start -->
+                <div class="container bg-white pt-5 pb-3">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">Portfolio</h2>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 text-center mb-2">
+                                    <ul class="list-inline mb-4" id="portfolio-flters">
+                                        <li class="btn btn-outline-primary active"  data-filter="*"><i class="fa fa-star mr-2"></i>All</li>
+                                        <li class="btn btn-outline-primary" data-filter=".first"><i class="fa fa-laptop-code mr-2"></i>Design</li>
+                                        <li class="btn btn-outline-primary" data-filter=".second"><i class="fa fa-mobile-alt mr-2"></i>Development</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row portfolio-container">
+                                <div class="col-md-6 mb-4 portfolio-item first">
+                                    <div class="position-relative overflow-hidden mb-2">
+                                        <img class="img-fluid w-100" src="{{ asset('assetswebsite/img/portfolio-1.jpg')}}" alt="">
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                            <a href="{{ asset('assetswebsite/img/portfolio-1.jpg')}}" data-lightbox="portfolio">
+                                                <i class="fa fa-4x fa-plus text-white"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 portfolio-item second">
+                                    <div class="position-relative overflow-hidden mb-2">
+                                      <img class="img-fluid w-100" src="{{asset('assetswebsite/img/portfolio-2.jpg')}}" alt="">
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                            <a href="{{asset('assetswebsite/img/portfolio-2.jpg')}}" data-lightbox="portfolio">
+                                                <i class="fa fa-4x fa-plus text-white"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 portfolio-item first">
+                                    <div class="position-relative overflow-hidden mb-2">
+                                        <img class="img-fluid w-100" src="{{ asset('assetswebsite/img/portfolio-3.jpg')}}" alt="">
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                            <a href="{{ asset('assetswebsite/img/portfolio-3.jpg')}}" data-lightbox="portfolio">
+                                                <i class="fa fa-4x fa-plus text-white"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 portfolio-item second">
+                                    <div class="position-relative overflow-hidden mb-2">
+                                        <img class="img-fluid w-100" src="{{ asset('assetswebsite/img/portfolio-4.jpg')}}" alt="">
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                            <a href="{{ asset('assetswebsite/img/portfolio-4.jpg')}}" data-lightbox="portfolio">
+                                                <i class="fa fa-4x fa-plus text-white"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio End -->
+
+
+                <!-- Testimonial Start -->
+                <div class="container bg-white py-5">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">Testimonial</h2>
+                        </div>
+                        <div class="col-12">
+                            <div class="owl-carousel testimonial-carousel">
+                                <div class="text-left">
+                                    <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                                    <h4 class="text-body mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                                    <div class="d-flex align-items-center">
+                                        <img class="img-fluid" src="{{ asset('assetswebsite/img/testimonial-1.jpg')}}" style="width: 60px; height: 60px;">
+                                        <div class="pl-3">
+                                            <h5 class="text-primary m-0">Client Name</h5>
+                                            <i>Profession</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                                    <h4 class="text-body mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                                    <div class="d-flex align-items-center">
+                                        <img class="img-fluid" src="{{ asset('assetswebsite/img/testimonial-2.jpg')}}" style="width: 60px; height: 60px;">
+                                        <div class="pl-3">
+                                            <h5 class="text-primary m-0">Client Name</h5>
+                                            <i>Profession</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                                    <h4 class="text-body mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                                    <div class="d-flex align-items-center">
+                                        <img class="img-fluid" src="{{ asset('assetswebsite/img/testimonial-3.jpg')}}" style="width: 60px; height: 60px;">
+                                        <div class="pl-3">
+                                            <h5 class="text-primary m-0">Client Name</h5>
+                                            <i>Profession</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial End -->
+
+
+                <!-- Contact Start -->
+                <div class="container bg-white py-5" id="contact">
+                    <div class="row px-3">
+                        <div class="col-12">
+                            <h2 class="title position-relative pb-2 mb-4">Contact Me</h2>
+                        </div>
+                        <div class="col-12">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <div class="form-row">
+                                        <div class="control-group col-sm-6">
+                                            <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                                required="required" data-validation-required-message="Please enter your name" />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="control-group col-sm-6">
+                                            <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                                required="required" data-validation-required-message="Please enter your email" />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                            required="required" data-validation-required-message="Please enter a subject" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                            required="required"
+                                            data-validation-required-message="Please enter your message"></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact End -->
+                
+                
+                <!-- Footer Start -->
+                <div class="container-fluid bg-white pt-5 px-0">
+                    <div class="container bg-dark text-light text-center py-5">
+                        <div class="d-flex justify-content-center mb-4">
+                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3">
+                            <a class="text-white" href="#">Privacy</a>
+                            <span class="px-3">|</span>
+                            <a class="text-white" href="#">Terms</a>
+                            <span class="px-3">|</span>
+                            <a class="text-white" href="#">FAQs</a>
+                            <span class="px-3">|</span>
+                            <a class="text-white" href="#">Help</a>
+                        </div>
+                        <p class="m-0">&copy; All Rights Reserved. Designed by <a href="#">Nader .. {{date('Y')}}</a></p>
+                    </div>
+                </div>
+                <!-- Footer End -->
+                
+                @foreach ($user as $user)   
+        
+        @endforeach
+        @endforeach
+            </div>
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+        
+        
+        <!-- JavaScript Libraries -->
+        <script src="{{asset('assetswebsite/https://code.jquery.com/jquery-3.4.1.min.js')}}"></script>
+        <script src="{{asset('assetswebsite/https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{asset('assetswebsite/lib/typed/typed.min.js')}}"></script>
+        <script src="{{asset('assetswebsite/lib/easing/easing.min.js')}}"></script>
+        <script src="{{asset('assetswebsite/lib/waypoints/waypoints.min.js')}}"></script>
+        <script src="{{asset('assetswebsite/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+        <script src="{{asset('assetswebsite/lib/isotope/isotope.pkgd.min.js')}}"></script>
+        <script src="{{asset('assetswebsite/lib/lightbox/js/lightbox.min.js')}}"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="{{asset('assetswebsite/mail/jqBootstrapValidation.min.js')}}"></script>
+        <script src="{{asset('assetswebsite/mail/contact.js')}}"></script>
+
+        <!-- Template Javascript -->
+        <script src="{{asset('assetswebsite/js/main.js')}}"></script>
+    </body>
 </html>
